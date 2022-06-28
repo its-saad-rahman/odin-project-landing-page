@@ -54,8 +54,7 @@ nav ul li a {
   font-size: 18px;
   color: hsl(217, 91%, 59%);
 }
-nav ul li a:hover {
-}
+
 .hero {
   display: flex;
   gap: 60px;
@@ -100,7 +99,7 @@ nav ul li a:hover {
   background-size: 200% auto;
   color: white;
   font-family: "Open Sans", sans-serif;
-  box-shadow: 0 0 20px #eee;
+  box-shadow: 0 0 20px rgb(0 0 0 / 15%);
   border: none;
   display: block;
   font-size: 25px;
@@ -194,4 +193,26 @@ nav ul li a:hover {
 .quote-content cite {
   display: flex;
   justify-content: flex-end;
+}
+
+/***********************/
+/*  CALL TO ACTION     */
+/***********************/
+.cta {
+  margin: 100px 0;
+}
+.cta-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: hsl(217, 37%, 63%);
+  gap: 15px;
+  padding: 50px 0;
+  color: #e5e7eb;
+}
+.cta-content .btn {
+  font-size: 18px;
+
+  padding: 8px 60px;
 }

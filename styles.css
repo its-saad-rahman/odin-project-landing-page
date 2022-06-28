@@ -216,3 +216,17 @@ nav ul li a {
 
   padding: 8px 60px;
 }
+
+/***********************/
+/*      FOOTER         */
+/***********************/
+.footer {
+  background: hsl(215, 28%, 17%);
+}
+.footer div {
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+}
